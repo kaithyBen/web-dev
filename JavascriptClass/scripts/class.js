@@ -328,10 +328,10 @@ console.log(`my name is ${scoreone}`, `has a series score:${scoretwo}`);
 //refrence////////
 let userone = {name: "kate", age: 100}
 let usertwo = userone;
-console.log(userone, usertwo)
+console.log(userone, usertwo);
 
  userone = 50
- console.log(userone, usertwo)
+ console.log(userone, usertwo);
 
 
 
