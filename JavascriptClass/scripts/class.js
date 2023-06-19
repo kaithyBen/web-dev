@@ -20,7 +20,6 @@
  }
 */
  // do while loop
-
 /*
  let num = 0
 
@@ -319,19 +318,81 @@ switch (i) {
 //premitive is stored in stack e.g function, arrays etc
 //and refrences this is stored in heap
 
-let scoreone = "kate";
-let scoretwo = 20;
-console.log(`scoreone:${scoreone}`, `scoretwo:${scoretwo}`);
-console.log(`my name is ${scoreone}`, `has a series score:${scoretwo}`);
+// let scoreone = "kate";
+// let scoretwo = 20;
+// console.log(`scoreone:${scoreone}`, `scoretwo:${scoretwo}`);
+// console.log(`my name is ${scoreone}`, `has a series score:${scoretwo}`);
 
 
-//refrence////////
-let userone = {name: "kate", age: 100}
-let usertwo = userone;
-console.log(userone, usertwo);
+// //refrence////////
+// let userone = {name: "kate", age: 100}
+// let usertwo = userone;
+// console.log(userone, usertwo);
 
- userone = 50
- console.log(userone, usertwo);
+//  userone = 50
+//  console.log(userone, usertwo);
+
+
+// //functions declearation//
+// const speak = function (){
+//    console.log('hello King')
+// }
+// speak()
+
+// const talk = function(Name){
+//    console.log('good day ${Name')
+// }
+// talk('King')
+
+// // Pass in values//
+// const speak = function(name = "King",  time = "night"){
+// console.log(`good ${time} ${name}`)
+// }
+// speak("king")
+
+//returning values//
+
+// const calArea = function(radius){
+//    let area = 3.14 * radius *2;
+//    return area;
+// }
+// const area = calArea (5)
+// console.log('area is :', area)
+
+// const calArea = function(radius){
+//    return 3.14 * radius;
+// }
+// const area = calArea(5)
+// console.log(area)
+
+
+// Arrow functions//
+// //for an argument when is one you dont need parentensis//  
+// const calArea = (radius) => {
+//    return 3.14 * radius;
+// }
+// const area = calArea(5)
+// // console.log(area)
+
+// const calArea = radius => 3.14 * radius * 5;
+// const area = calArea(5) 
+// console.log(area)
+
+// const greet = () => "sup young King";
+// const result = greet();
+// // console.log(result)
+
+// const bill = function (products, tax){
+//    let total = 0;
+//    for (let i = 0; i < products.length; i++){
+//    total += product[i] + products[i] * tax;
+      
+//    } return total
+  
+// }
+
+// console.log(bill([10,2, 65], 0.2))
+
 
 
 
